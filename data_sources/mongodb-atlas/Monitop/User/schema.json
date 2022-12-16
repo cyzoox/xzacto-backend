@@ -1,0 +1,50 @@
+{
+    "properties": {
+      "_id": {
+        "bsonType": "string"
+      },
+      "_partition": {
+        "bsonType": "string"
+      },
+      "memberOf": {
+        "bsonType": "array",
+        "items": {
+          "bsonType": "object",
+          "properties": {
+            "name": {
+              "bsonType": "string"
+            },
+            "partition": {
+              "bsonType": "string"
+            }
+          },
+          "title": "Project"
+        }
+      },
+      "name": {
+        "bsonType": "string"
+      },
+      "pin": {
+        "bsonType": "string"
+      },
+      "privilege": {
+        "bsonType": "string"
+      },
+      "privilege_due": {
+        "bsonType": "string"
+      },
+      "status": {
+        "bsonType": "string"
+      }
+    },
+    "required": [
+      "_id",
+      "_partition",
+      "name",
+      "privilege",
+      "privilege_due",
+      "status",
+      "pin"
+    ],
+    "title": "User"
+  }

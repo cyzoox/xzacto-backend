@@ -1,0 +1,106 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "img": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "sku": {
+      "bsonType": "string"
+    },
+    "pr_id": {
+      "bsonType": "string"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "stock": {
+      "bsonType": "float"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "unit": {
+      "bsonType": "string"
+    },
+    "withVariants": {
+      "bsonType": "bool"
+    },
+    "withAddons": {
+      "bsonType": "bool"
+    },
+    "withOptions": {
+      "bsonType": "bool"
+    },
+    "addons":{
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "name": {
+            "bsonType": "string"
+          },
+          "price": {
+            "bsonType": "float"
+          },
+          "cost": {
+            "bsonType": "float"
+          }
+        },
+        "title": "Addons"
+      }
+    },
+    "variants":{
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "name": {
+            "bsonType": "string"
+          },
+          "price": {
+            "bsonType": "float"
+          },
+          "cost": {
+            "bsonType": "float"
+          }
+        },
+        "title": "Variants"
+      }
+    },
+    "options":{
+      "items": {
+        "bsonType": "object",
+        "properties": {
+          "option": {
+            "bsonType": "string"
+          }
+        },
+        "title": "Options"
+      }
+    }
+  },
+  "required": [
+    "_id",
+    "_partition"
+  ],
+  "title": "Products"
+}

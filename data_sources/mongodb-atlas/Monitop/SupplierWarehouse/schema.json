@@ -1,0 +1,32 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "address": {
+      "bsonType": "string"
+    },
+    "contact": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "owner_id": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "name",
+    "contact",
+    "address",
+    "owner_id"
+  ],
+  "title": "SupplierWarehouse"
+}

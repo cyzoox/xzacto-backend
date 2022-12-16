@@ -1,0 +1,48 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "description": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "store_name": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "description",
+    "store_id",
+    "store_name",
+    "timeStamp",
+    "date",
+    "year",
+    "year_month",
+    "year_week"
+  ],
+  "title": "Notifications"
+}

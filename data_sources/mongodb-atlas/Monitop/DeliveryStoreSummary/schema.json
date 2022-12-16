@@ -1,0 +1,68 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "delivered_by": {
+      "bsonType": "string"
+    },
+    "delivery_receipt": {
+      "bsonType": "string"
+    },
+    "received_by": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "store_name": {
+      "bsonType": "string"
+    },
+    "supplier": {
+      "bsonType": "string"
+    },
+    "supplier_id": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "total": {
+      "bsonType": "float"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "supplier",
+    "supplier_id",
+    "delivered_by",
+    "received_by",
+    "delivery_receipt",
+    "total",
+    "store_name",
+    "store_id"
+  ],
+  "title": "DeliveryStoreSummary"
+}

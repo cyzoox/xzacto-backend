@@ -1,0 +1,56 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "archive_id": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "unit": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "date",
+    "timeStamp",
+    "total",
+    "attendant",
+    "attendant_id",
+    "products",
+    "archive_id"
+  ],
+  "title": "Archive"
+}

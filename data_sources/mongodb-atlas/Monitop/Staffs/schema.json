@@ -1,0 +1,48 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "login_am": {
+      "bsonType": "string"
+    },
+    "login_pm": {
+      "bsonType": "string"
+    },
+    "logout_am": {
+      "bsonType": "string"
+    },
+    "logout_pm": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "password": {
+      "bsonType": "string"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "status": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "name",
+    "store_id",
+    "store",
+    "password",
+    "status"
+  ],
+  "title": "Staffs"
+}

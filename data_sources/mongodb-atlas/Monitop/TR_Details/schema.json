@@ -1,0 +1,92 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "product_id": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "tr_id": {
+      "bsonType": "string"
+    },
+    "unit": {
+      "bsonType": "string"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    },
+    "status": {
+      "bsonType": "string"
+    },
+    "attendant_id": {
+      "bsonType": "string"
+    },
+    "attendant_name": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "name",
+    "brand",
+    "oprice",
+    "sprice",
+    "category",
+    "unit",
+    "store_id",
+    "store",
+    "quantity",
+    "tr_id",
+    "year",
+    "year_month",
+    "year_week",
+    "timeStamp",
+    "date",
+    "product_id",
+    "status",
+    "attendant_id",
+    "attendant_name"
+  ],
+  "title": "TR_Details"
+}

@@ -1,0 +1,72 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "owner_id": {
+      "bsonType": "string"
+    },
+    "processed_by": {
+      "bsonType": "string"
+    },
+    "product": {
+      "bsonType": "string"
+    },
+    "pullout_by": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "reason": {
+      "bsonType": "string"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "reason",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "product",
+    "quantity",
+    "oprice",
+    "sprice",
+    "brand",
+    "processed_by",
+    "pullout_by",
+    "owner_id"
+  ],
+  "title": "PulloutWarehouse"
+}

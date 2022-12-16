@@ -1,0 +1,68 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "exp_date": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "owner_id": {
+      "bsonType": "string"
+    },
+    "processed_by": {
+      "bsonType": "string"
+    },
+    "product": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "exp_date",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "product",
+    "quantity",
+    "oprice",
+    "sprice",
+    "brand",
+    "processed_by",
+    "owner_id"
+  ],
+  "title": "ExpiredWarehouse"
+}

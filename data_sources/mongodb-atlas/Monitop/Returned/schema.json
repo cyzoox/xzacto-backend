@@ -1,0 +1,76 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "attendant_id": {
+      "bsonType": "string"
+    },
+    "attendant_name": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "product_id": {
+      "bsonType": "string"
+    },
+    "product_name": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "int"
+    },
+    "reason": {
+      "bsonType": "string"
+    },
+    "receipt_no": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "store_name": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "total": {
+      "bsonType": "float"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "store_name",
+    "store_id",
+    "date",
+    "timeStamp",
+    "product_name",
+    "product_id",
+    "total",
+    "year",
+    "year_month",
+    "year_week",
+    "attendant_name",
+    "attendant_id",
+    "quantity",
+    "reason",
+    "receipt_no"
+  ],
+  "title": "Returned"
+}

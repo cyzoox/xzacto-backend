@@ -1,0 +1,43 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "address": {
+      "bsonType": "string"
+    },
+    "credit_balance": {
+      "bsonType": "float"
+    },
+    "loyalty_points": {
+      "bsonType": "float"
+    },
+    "mobile_no": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "tel_no": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "name",
+    "store_id",
+    "store"
+  ],
+  "title": "Customers"
+}

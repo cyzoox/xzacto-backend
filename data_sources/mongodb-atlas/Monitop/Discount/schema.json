@@ -1,0 +1,68 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "attendant": {
+      "bsonType": "string"
+    },
+    "attendant_id": {
+      "bsonType": "string"
+    },
+    "customer_id": {
+      "bsonType": "string"
+    },
+    "customer_name": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "discount_total": {
+      "bsonType": "float"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "transaction_id": {
+      "bsonType": "string"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "transaction_id",
+    "discount_total",
+    "attendant",
+    "attendant_id",
+    "store",
+    "store_id",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "customer_name",
+    "customer_id"
+  ],
+  "title": "Discount"
+}

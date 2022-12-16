@@ -1,0 +1,44 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "attendant": {
+      "bsonType": "string"
+    },
+    "attendant_id": {
+      "bsonType": "string"
+    },
+    "branch": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "owner": {
+      "bsonType": "string"
+    },
+    "password": {
+      "bsonType": "string"
+    },
+    "store_type": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "name",
+    "owmer",
+    "branch",
+    "password",
+    "attendant",
+    "attendant_id",
+    "store_type"
+  ],
+  "title": "Stores"
+}

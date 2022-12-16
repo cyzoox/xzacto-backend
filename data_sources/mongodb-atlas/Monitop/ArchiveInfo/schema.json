@@ -1,0 +1,36 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "store_name": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "total": {
+      "bsonType": "float"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "store_name",
+    "store_id",
+    "date",
+    "timeStamp",
+    "total"
+  ],
+  "title": "ArchiveInfo"
+}

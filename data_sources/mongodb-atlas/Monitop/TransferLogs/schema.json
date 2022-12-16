@@ -1,0 +1,72 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "int"
+    },
+    "product": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "int"
+    },
+    "sprice": {
+      "bsonType": "int"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "store_name": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "transferred_by": {
+      "bsonType": "string"
+    },
+    "unit": {
+      "bsonType": "string"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "product",
+    "quantity",
+    "sprice",
+    "oprice",
+    "store_id",
+    "store_name",
+    "transferred_by",
+    "unit",
+    "category"
+  ],
+  "title": "TransferLogs"
+}

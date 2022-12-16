@@ -1,0 +1,56 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "img": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "owner_id": {
+      "bsonType": "string"
+    },
+    "sku": {
+      "bsonType": "string"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "stock": {
+      "bsonType": "float"
+    },
+    "unit": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "name",
+    "category",
+    "brand",
+    "oprice",
+    "sprice",
+    "unit",
+    "owner_id",
+    "stock",
+    "sku",
+    "img"
+  ],
+  "title": "WarehouseProducts"
+}

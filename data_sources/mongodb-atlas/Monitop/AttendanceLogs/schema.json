@@ -1,0 +1,60 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "attendant_id": {
+      "bsonType": "string"
+    },
+    "attendant_name": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "inStamp": {
+      "bsonType": "int"
+    },
+    "outStamp": {
+      "bsonType": "int"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "store_name": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "store_name",
+    "store_id",
+    "date",
+    "timeStamp",
+    "attendant_id",
+    "attendant_name",
+    "year",
+    "year_month",
+    "year_week",
+    "inStamp",
+    "outStamp"
+  ],
+  "title": "AttendanceLogs"
+}

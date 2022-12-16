@@ -1,0 +1,56 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "category": {
+      "bsonType": "string"
+    },
+    "cr_id": {
+      "bsonType": "string"
+    },
+    "name": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "unit": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "name",
+    "brand",
+    "oprice",
+    "sprice",
+    "category",
+    "unit",
+    "store_id",
+    "store",
+    "quantity",
+    "cr_id"
+  ],
+  "title": "Credit_List"
+}

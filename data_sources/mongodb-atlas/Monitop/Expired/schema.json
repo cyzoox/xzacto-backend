@@ -1,0 +1,76 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "attendant": {
+      "bsonType": "string"
+    },
+    "attendant_id": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "exp_date": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "product": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "exp_date",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "product",
+    "quantity",
+    "oprice",
+    "sprice",
+    "brand",
+    "attendant",
+    "attendant_id",
+    "store",
+    "store_id"
+  ],
+  "title": "Expired"
+}

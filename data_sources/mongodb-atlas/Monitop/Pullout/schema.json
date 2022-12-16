@@ -1,0 +1,80 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "attendant": {
+      "bsonType": "string"
+    },
+    "attendant_id": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "product": {
+      "bsonType": "string"
+    },
+    "pullout_by": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "reason": {
+      "bsonType": "string"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "store": {
+      "bsonType": "string"
+    },
+    "store_id": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "reason",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "product",
+    "quantity",
+    "oprice",
+    "sprice",
+    "brand",
+    "pullout_by",
+    "attendant",
+    "attendant_id",
+    "store",
+    "store_id"
+  ],
+  "title": "Pullout"
+}

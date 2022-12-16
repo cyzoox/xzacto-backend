@@ -1,0 +1,84 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "delivered_by": {
+      "bsonType": "string"
+    },
+    "delivery_receipt": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "owner_id": {
+      "bsonType": "string"
+    },
+    "product": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "received_by": {
+      "bsonType": "string"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "supplier": {
+      "bsonType": "string"
+    },
+    "supplier_id": {
+      "bsonType": "string"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "type": {
+      "bsonType": "string"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "date",
+    "year",
+    "year_week",
+    "year_month",
+    "timeStamp",
+    "product",
+    "quantity",
+    "sprice",
+    "oprice",
+    "supplier",
+    "supplier_id",
+    "delivered_by",
+    "received_by",
+    "delivery_receipt",
+    "brand",
+    "type",
+    "owner_id"
+  ],
+  "title": "DeliveryReportWarehouse"
+}

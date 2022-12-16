@@ -1,0 +1,68 @@
+{
+  "bsonType": "object",
+  "properties": {
+    "_id": {
+      "bsonType": "string"
+    },
+    "_partition": {
+      "bsonType": "string"
+    },
+    "brand": {
+      "bsonType": "string"
+    },
+    "date": {
+      "bsonType": "string"
+    },
+    "oprice": {
+      "bsonType": "float"
+    },
+    "owner_id": {
+      "bsonType": "string"
+    },
+    "product_id": {
+      "bsonType": "string"
+    },
+    "product_name": {
+      "bsonType": "string"
+    },
+    "quantity": {
+      "bsonType": "float"
+    },
+    "sprice": {
+      "bsonType": "float"
+    },
+    "timeStamp": {
+      "bsonType": "int"
+    },
+    "total": {
+      "bsonType": "float"
+    },
+    "year": {
+      "bsonType": "string"
+    },
+    "year_month": {
+      "bsonType": "string"
+    },
+    "year_week": {
+      "bsonType": "string"
+    }
+  },
+  "required": [
+    "_id",
+    "_partition",
+    "owner_id",
+    "date",
+    "timeStamp",
+    "product_name",
+    "product_id",
+    "total",
+    "year",
+    "year_month",
+    "year_week",
+    "quantity",
+    "sprice",
+    "oprice",
+    "brand"
+  ],
+  "title": "BOWarehouse"
+}
